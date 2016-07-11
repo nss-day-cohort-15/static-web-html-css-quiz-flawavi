@@ -2,23 +2,36 @@
 CLASS SELECTORS
 **************/
 
-.geraldorivera {
+.headshot {
   max-width: 30%;
-  margin: 0 auto;
-  display: block;
+  margin: 30px 150px;
+  align-content: center;
+  display: inline-block;
   border-radius: 100%;
 }
 
 .icecream {
   width: 30%;
+  display: inline-flex;
 }
 
+/****************
+ELEMENT SELECTORS
+****************/
 
 h1  {
-  margin: auto;
+  margin: 10px;
   text-align: center;
 }
 
-nav {
+nav li{
   text-decoration: none;
+  text-align: right;
+  list-style-type: none;
+  list-style: none;
+  margin-right: 2%;
+}
+
+input {
+
 }
