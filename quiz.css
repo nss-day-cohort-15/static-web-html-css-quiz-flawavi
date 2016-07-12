@@ -14,6 +14,7 @@ CLASS SELECTORS
   width: 30%;
   display: inline-flex;
   border: 2px solid grey;
+  margin: 5px 1px;
 }
 
 /****************
@@ -26,6 +27,11 @@ h1  {
   border: 2px solid grey;
 }
 
+h2  {
+  font-weight: inherit;
+  text-indent: 5px;
+}
+
 nav li{
   text-decoration: none;
   text-align: right;
@@ -35,10 +41,30 @@ nav li{
 }
 
 input {
-
+  color: yellow;
+  border-style: none;
+  background-color: grey;
+  min-width: 100%;
 }
 
 p {
   text-indent: 10px;
   margin: .75em;
 }
+
+h3 {
+  text-indent: 5px;
+}
+
+h5 {
+  font-weight: inherit;
+  font-size: .75em;
+}
+
+
+
+
+
+
+
+
