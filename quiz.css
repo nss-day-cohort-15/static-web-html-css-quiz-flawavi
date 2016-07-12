@@ -33,6 +33,8 @@ CLASS SELECTORS
   height: 55px;
 }
 
+
+
 /****************
 ELEMENT SELECTORS
 ****************/
@@ -77,10 +79,6 @@ h3 {
   text-indent: 5px;
   display: inline-block;
   font-size: 2vw;
-}
-
-h3 p {
-
 }
 
 footer {
