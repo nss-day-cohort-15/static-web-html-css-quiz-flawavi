@@ -3,20 +3,26 @@ CLASS SELECTORS
 **************/
 
 .headshot {
-  max-width: 30%;
-  margin: 30px 150px;
+  width: 30%;
+  height: auto;
   align-content: center;
   display: inline-block;
   border-radius: 100%;
 }
 
 .icecream {
-  width: 30%;
+  width: 22%;
   display: inline-flex;
   border: 2px solid grey;
   margin: 5px 1px;
+  display: inline-block;
 }
 
+.pint {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
 /****************
 ELEMENT SELECTORS
 ****************/
@@ -25,6 +31,7 @@ h1  {
   margin: 10px;
   text-align: center;
   border: 2px solid grey;
+  display: inline-block;
 }
 
 h2  {
