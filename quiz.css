@@ -5,6 +5,9 @@ CLASS SELECTORS
   width: 100%;
 }
 
+.bold > p {
+}
+
 .headshot {
   display: inline;
   margin-left: 10%;
@@ -18,7 +21,7 @@ CLASS SELECTORS
 .icecream {
   width: 30%;
   display: inline-block;
-  border: 2px solid lightblue;
+  border: 1px solid lightblue;
   margin: 5px 1px;
   display: inline-block;
   height: auto;
@@ -42,7 +45,7 @@ ELEMENT SELECTORS
 ****************/
 
 header  {
-  border-bottom: 2px dotted lightgrey;
+  border-bottom: 1px dotted lightgrey;
 }
 
 h1  {
@@ -61,9 +64,6 @@ h2 p {
   font-weight: bold;
 }
 
-h3 p {
-  font-weight: bold;
-}
 nav li{
   text-decoration: none;
   text-align: right;
