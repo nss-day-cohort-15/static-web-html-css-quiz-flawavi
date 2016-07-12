@@ -26,6 +26,8 @@ CLASS SELECTORS
   margin: 5px 1px;
   display: inline-block;
   height: auto;
+  float: left;
+  ;
 }
 
 .pint {
@@ -36,11 +38,9 @@ CLASS SELECTORS
 }
 
 .description p{
-  height: 55px;
+  min-height: 75px;
   text-align: justify;
 }
-
-
 
 /****************
 ELEMENT SELECTORS
@@ -50,7 +50,7 @@ header  {
   border-bottom: 1px dotted lightgrey;
 }
 
-h1  {
+header h1  {
   margin: 10px;
   text-align: center;
 }
@@ -86,14 +86,14 @@ input {
   border-style: none;
   background-color: grey;
   width: 100%;
+  margin: auto;
 }
 
 p {
   text-indent: 10px;
   margin: 1px;
+  text-overflow: scroll;
 }
-
-
 
 footer {
   font-weight: inherit;
@@ -101,10 +101,25 @@ footer {
   margin-left: 5px;
 }
 
+div p {
+}
 
+/**********
+MEDIA QUERY
+**********/
 
+@media (max-width: 480px) {
+  .icecream {
+    width: 100%;
+    margin-top: 25px;
+  }
+}
 
-
+@media (max-width: 480px) {
+  .bjmarket {
+    text-align: center;
+  }
+}
 
 
 
