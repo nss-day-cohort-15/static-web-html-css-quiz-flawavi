@@ -4,6 +4,7 @@ CLASS SELECTORS
 .bjmarket {
   width: 100%;
 }
+
 .headshot {
   display: inline;
   margin-left: 10%;
@@ -17,7 +18,7 @@ CLASS SELECTORS
 .icecream {
   width: 30%;
   display: inline-block;
-  border: 2px solid grey;
+  border: 2px solid lightblue;
   margin: 5px 1px;
   display: inline-block;
   height: auto;
@@ -31,6 +32,7 @@ CLASS SELECTORS
 
 .description p{
   height: 55px;
+  text-align: justify;
 }
 
 
@@ -40,7 +42,7 @@ ELEMENT SELECTORS
 ****************/
 
 header  {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px dotted lightgrey;
 }
 
 h1  {
@@ -55,6 +57,13 @@ h2  {
   font-size: 1em;
 }
 
+h2 p {
+  font-weight: bold;
+}
+
+h3 p {
+  font-weight: bold;
+}
 nav li{
   text-decoration: none;
   text-align: right;
