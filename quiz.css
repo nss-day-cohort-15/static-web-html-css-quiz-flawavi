@@ -5,9 +5,6 @@ CLASS SELECTORS
   width: 100%;
 }
 
-.bold > p {
-}
-
 .headshot {
   display: inline;
   margin-left: 10%;
@@ -16,6 +13,10 @@ CLASS SELECTORS
   border-radius: 50%;
   position: relative;
   text-align: center;
+}
+
+.bold p {
+  font-weight: bold;
 }
 
 .icecream {
@@ -60,6 +61,13 @@ h2  {
   font-size: 1em;
 }
 
+h3 {
+  text-indent: 5px;
+  display: inline-block;
+  font-size: 2vw;
+  font-weight: normal;
+}
+
 h2 p {
   font-weight: bold;
 }
@@ -84,11 +92,7 @@ p {
   margin: 1px;
 }
 
-h3 {
-  text-indent: 5px;
-  display: inline-block;
-  font-size: 2vw;
-}
+
 
 footer {
   font-weight: inherit;
