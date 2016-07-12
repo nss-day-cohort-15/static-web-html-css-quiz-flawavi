@@ -13,6 +13,7 @@ CLASS SELECTORS
 .icecream {
   width: 30%;
   display: inline-flex;
+  border: 2px solid grey;
 }
 
 /****************
@@ -22,6 +23,7 @@ ELEMENT SELECTORS
 h1  {
   margin: 10px;
   text-align: center;
+  border: 2px solid grey;
 }
 
 nav li{
@@ -34,4 +36,9 @@ nav li{
 
 input {
 
+}
+
+p {
+  text-indent: 10px;
+  margin: .75em;
 }
