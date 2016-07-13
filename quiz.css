@@ -3,6 +3,7 @@ CLASS SELECTORS
 **************/
 .bjmarket {
   width: 100%;
+  text-align: center;
 }
 
 .headshot {
@@ -99,9 +100,6 @@ footer {
   font-weight: inherit;
   font-size: .75em;
   margin-left: 5px;
-}
-
-div p {
 }
 
 /**********
