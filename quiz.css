@@ -16,7 +16,7 @@ CLASS SELECTORS
   text-align: center;
 }
 
-.bold p {
+.bold{
   font-weight: bold;
 }
 
@@ -106,7 +106,7 @@ footer {
 MEDIA QUERY
 **********/
 
-@media (max-width: 480px) {
+@media (max-width: 772px) {
   .icecream {
     width: 100%;
     margin-top: 25px;
