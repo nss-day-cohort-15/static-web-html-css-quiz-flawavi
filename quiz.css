@@ -1,6 +1,15 @@
 /**************
 CLASS SELECTORS
 **************/
+
+.available {
+  color: yellow;
+  border-style: none;
+  background-color: grey;
+  width: 100%;
+  margin: auto;
+}
+
 .bjmarket {
   width: 100%;
   text-align: center;
@@ -28,7 +37,6 @@ CLASS SELECTORS
   display: inline-block;
   height: auto;
   float: left;
-  ;
 }
 
 .pint {
@@ -51,7 +59,7 @@ header  {
   border-bottom: 1px dotted lightgrey;
 }
 
-header h1  {
+h1  {
   margin: 10px;
   text-align: center;
 }
@@ -70,10 +78,6 @@ h3 {
   font-weight: normal;
 }
 
-h2 p {
-  font-weight: bold;
-}
-
 nav li{
   text-decoration: none;
   text-align: right;
@@ -82,18 +86,9 @@ nav li{
   margin-right: 2%;
 }
 
-input {
-  color: yellow;
-  border-style: none;
-  background-color: grey;
-  width: 100%;
-  margin: auto;
-}
-
 p {
   text-indent: 10px;
   margin: 1px;
-  text-overflow: scroll;
 }
 
 footer {
