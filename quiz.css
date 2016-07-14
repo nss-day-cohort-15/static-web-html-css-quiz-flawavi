@@ -1,0 +1,118 @@
+/**************
+CLASS SELECTORS
+**************/
+
+.available {
+  color: yellow;
+  border-style: none;
+  background-color: grey;
+  width: 100%;
+  margin: auto;
+}
+
+.bjmarket {
+  width: 100%;
+  text-align: center;
+}
+
+.headshot {
+  display: inline;
+  margin-left: 10%;
+  margin-bottom: 100px;
+  width: 30%;
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.icecream {
+  width: 30%;
+  display: inline-block;
+  border: 1px solid lightblue;
+  margin: 5px 1px;
+  display: inline-block;
+  height: auto;
+  float: left;
+}
+
+.pint {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.description p{
+  min-height: 75px;
+  text-align: justify;
+}
+
+/****************
+ELEMENT SELECTORS
+****************/
+
+header  {
+  border-bottom: 1px dotted lightgrey;
+}
+
+h1  {
+  margin: 10px;
+  text-align: center;
+}
+
+h2  {
+  font-weight: inherit;
+  text-indent: 5px;
+  display: inline-block;
+  font-size: 1em;
+}
+
+h3 {
+  text-indent: 5px;
+  display: inline-block;
+  font-size: 2vw;
+  font-weight: normal;
+}
+
+nav li{
+  text-decoration: none;
+  text-align: right;
+  list-style-type: none;
+  list-style: none;
+  margin-right: 2%;
+}
+
+p {
+  text-indent: 10px;
+  margin: 1px;
+}
+
+footer {
+  font-weight: inherit;
+  font-size: .75em;
+  margin-left: 5px;
+}
+
+/**********
+MEDIA QUERY
+**********/
+
+@media (max-width: 772px) {
+  .icecream {
+    width: 100%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bjmarket {
+    text-align: center;
+  }
+}
+
+
+
